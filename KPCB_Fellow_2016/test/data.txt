@@ -1,0 +1,7 @@
+Peter 99
+Xiaoming 50
+Larry 24
+Mary 100
+Kenny 85
+Lisa 92
+Junjie 32

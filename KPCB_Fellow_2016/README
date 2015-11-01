@@ -1,0 +1,16 @@
+/*
+ * MyHashMap.h: declaration of a Hash Map class
+ * Method: Bucket array method with each bucket(linked list) storing keys with same hash code
+ * (low chance), and all bucket is stored in an array. Hash function is from c++ std library.
+ *
+ *  Created on: Oct. 11, 2015
+ *      Author: Wenliang Zhao, zhaowenliangpolyu@gmail.com
+ */
+
+Tested on
+System: x86_64-apple-darwin13.1.0 (OS 10.9.2)
+compiler: c++ 4.2.1 Apple LLVM version 5.1 (clang-503.0.40)
+
+For test funning:
+  bash ./test_run.sh
+which compile the class with a program called test_run.cpp. Tests are reading inputs from a text file (set), separated by spaces (only read non-spaces keys and values); print current load after reading; get one value from key "JJ" (if not in map, print not find); remove one entry called "Mary"; add back "Mary" with value 100. In the end, clean all objects and binary files.
